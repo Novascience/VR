@@ -139,10 +139,16 @@ main section{
 .projet {
 	position: relative;
 	width: 350px;
-	height: 560px;
+	height: 612px;
+	padding-bottom: 5px;
 	max-width: 360px;
 	margin: 20px 22px;
 	background-color: rgba(0, 0, 0, 0.5);
+
+	display: flex;
+	flex-wrap: wrap;
+	align-content: flex-start; /* Aligns content to the start on the main axis */
+	align-items: flex-start; /* Align items at the start (top) of the container */
 }
 
 .sp{
@@ -168,33 +174,32 @@ main section{
 	font-size: 0.79em;
 }
 
-.btn{
+.btns {
+	position: absolute;
+	bottom: 0;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+}
+
+.btn {
 	cursor: pointer;
 }
 
-.btn div, .jouer div{
+.btn div {
 	border-radius: 10px;
 	border: 2px solid white;
-	width: 151px;
+	width: 161px;
 	font-size: 0.60em;
-	margin: 10px;
-
-	position: absolute;
+	margin: 5px;
 	bottom: 0;
 	padding: 7px 0;
-}
-
-.btn div{
-	left: 0;
 }
 
 .btn .soloBtn {
 	width: 93.3%;
 }
 
-.jouer div {
-	right: 0;
-}
 
 #fenetre{
 	display: none;

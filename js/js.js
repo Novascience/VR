@@ -12,6 +12,7 @@ function fondu()
 	  }
 	}
 }
+
 function changerLangue()
 {
 	document.querySelectorAll(".EN").forEach(el => {

@@ -9,7 +9,8 @@
 {
 	btnsVideo();
 	btnsAfficher();
-	fondu();
+  document.querySelector("header").style.opacity = 0;
+  setTimeout(fondu, 4500);
 	changerLangue();
  return true;
 }) ();

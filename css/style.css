@@ -355,8 +355,12 @@ footer{
 	flex-direction: column;
 	/* margin-top: 8%; */
 }
-
 .description {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+	
 	width: 51%;
 }
 

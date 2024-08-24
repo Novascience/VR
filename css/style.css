@@ -199,7 +199,7 @@ main section{
 .projet {
 	position: relative;
 	width: 350px;
-	height: 700px;
+	height: 800px;
 	padding-bottom: 5px;
 	max-width: 360px;
 	margin: 20px 22px;
@@ -209,6 +209,11 @@ main section{
 	flex-wrap: wrap;
 	align-content: flex-start; /* Aligns content to the start on the main axis */
 	align-items: flex-start; /* Align items at the start (top) of the container */
+}
+
+.pdf{
+	padding-top: 15px;
+	font-size: 1.4em;
 }
 
 .sp{

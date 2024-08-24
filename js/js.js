@@ -60,6 +60,22 @@ function btnsVideo()
 		fermerFenetresVideos();
 	});
 
+	document.querySelector(".video6").addEventListener("mousedown", function () {
+		afficherVideo(6);
+	});
+
+	document.querySelector(".video5").addEventListener("mousedown", function () {
+		afficherVideo(5);
+	});
+
+	document.querySelector(".video4").addEventListener("mousedown", function () {
+		afficherVideo(4);
+	});
+
+	document.querySelector(".video3").addEventListener("mousedown", function () {
+		afficherVideo(3);
+	});
+
 	document.querySelector(".video2").addEventListener("mousedown", function () {
 		afficherVideo(2);
 	});
@@ -82,7 +98,7 @@ function fermerFenetresVideos()
 {
 	document.querySelector(".vide").style.display = "none";
 
-	for (i = 0; i <= 2; i++) {
+	for (i = 0; i <= 6; i++) {
 		const videoElement = document.querySelector(".fenetreVideo" + i);
 		if (videoElement) {
 			videoElement.style.display = "none";
